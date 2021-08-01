@@ -39,7 +39,7 @@ input{
 }
 
 .pokemon-boxes{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
 }
 .pokemon-box{
