@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>POKEDEX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    </head>
+    <body>
+        <div class="main">
+            <h2>POKEDEX</h2>
+            <p style="text-align:center;">2021 &copy;<a style="color: rgb(0, 0, 0);" target="_blank" href="https://www.linkedin.com/in/vittorvk2/">Vitor Alexandre</a></p>
+            <br>
+            <div class="divBusca">
+                <input id="qtd" type="text" name="qtd" placeholder="Digite a quantidade">
+                <img src="lupa.png" onclick="pegaPokemons(0)" class="btnBusca" alt="Buscar">
+            </div>
+            
+            <div class="pokemon-boxes"></div>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
