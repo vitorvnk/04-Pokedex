@@ -64,19 +64,19 @@ input{
 
 
 @media screen and (max-width:768px){
-    .pokemon-box {width:100%; text-align:center;display:inline-block;}
+    .pokemon-box {width:100%; text-align:center;display:inline;}
     .pokemon-box img {max-width: 300px;}
     input{width: 93%;}
     .loading{margin-left: 30%}
 }
 @media screen and (max-width:560px){
-    .pokemon-box {width:100%; text-align:center;display:inline-block;}
+    .pokemon-box {width:100%; text-align:center;display:inline;}
     .pokemon-box img {max-width: 250px;}
     input{width: 90%;}
     .loading{margin-left: 20%}
 }
 @media screen and (max-width:290px){
-    .pokemon-box {width:100%; text-align:center;display:inline-block;}
+    .pokemon-box {width:100%; text-align:center;display:inline;}
     .pokemon-box img {max-width: 250px;}
     input{width: 88%;}
     .loading{margin-left: 10%}
