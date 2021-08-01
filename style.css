@@ -72,4 +72,6 @@ input{
 @media screen and (max-width:560px){
     input{width: 90%;}
     .loading{margin-left: 20%}
+    .pokemon-box {width:100%; text-align:center;}
+    .pokemon-box img {max-width: 300px;}
 }
