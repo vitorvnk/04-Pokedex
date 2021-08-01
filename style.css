@@ -69,3 +69,7 @@ input{
     input{width: 93%;}
     .loading{margin-left: 30%}
 }
+@media screen and (max-width:560px){
+    input{width: 90%;}
+    .loading{margin-left: 20%}
+}
