@@ -36,6 +36,10 @@ function pegaPokemons(qtd){
     })
 }
 
-
+function jumpScroll() {
+    var target_offset = $(".divBusca").offset();
+    var target_top = target_offset.top;
+    $('html, body').animate({ scrollTop: target_top }, 0);
+}
 
 
