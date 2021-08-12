@@ -61,20 +61,23 @@ input{
     margin-left: 40%;
 }
 
-
-
 .buutton{
     width: 2em;
     height: 2em;
     border-right: 0.4em solid black;
     border-top: 0.4em solid black;
-    transform: rotate(-50deg);
+    transform: rotate(-48deg);
     cursor: pointer;
 
     position: fixed;
     right: 50px;
     top: 94%;
     margin-top: -2em;
+}
+
+.buutton:hover{
+    border-right: 0.4em solid rgb(41, 41, 41);
+    border-top: 0.4em solid rgb(41, 41, 41);
 }
 
 @media screen and (max-width:768px){
